@@ -1,0 +1,17 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "thnkrSDK"
+version = "0.1.0"
+description = "Software Development Kit for connecting to the thnkrAPI"
+authors = [
+   "thnkrAI Inc. <contact@thnkrai.com>"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
