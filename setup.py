@@ -2,15 +2,15 @@ from setuptools import setup, find_packages
 
 setup(
    name = 'thnkrSDK',
-   version = '0.1.0',
+   version = '0.0.1', # REAL VERSION: 0.0.0
+   
+   author = 'thnkrAI Inc.',
+   author_email = 'contact@thnkrai.com',
+   url='https://github.com/thnkrAI/thnkrSDK',
    
    description = 'Software Development Kit for connecting to the thnkrAPI',
    long_description=open('README.md').read(),
    long_description_content_type='text/markdown',
-   
-   author = 'thnkrAI Inc.',
-   author_email = 'contact@thnkrai.com',
-   url='GITHUB REPO NOT YET PUBLIC - WILL UPDATE',
    
    packages = find_packages(),
    classifiers=[
@@ -18,12 +18,14 @@ setup(
       'Programming Language :: Python :: 3',
       'Operating System :: OS Independent',
    ],
+   
    python_requires=">=3.6",
    install_requires = [
       'requests>=2.26.0',
    ],
+   
    project_urls={
-      'Source': 'GITHUB REPO NOT YET PUBLIC - WILL UPDATE',
-      'Bug Reports': 'GITHUB REPO NOT YET PUBLIC - WILL UPDATE',
+      'Source': 'https://github.com/thnkrAI/thnkrSDK',
+      'Bug Reports': 'https://github.com/thnkrAI/thnkrSDK/issues',
    },
 )
