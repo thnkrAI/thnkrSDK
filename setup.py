@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
    name = 'thnkrSDK',
-   version = '0.0.1', # REAL VERSION: 0.0.0
+   version = '0.0.3',
    
    author = 'thnkrAI Inc.',
    author_email = 'contact@thnkrai.com',
